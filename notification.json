@@ -2,7 +2,7 @@
 "LambdaFunctionConfigurations": [
     {
       "Id": "my-lambda-function-s3-event-configuration",
-      "LambdaFunctionArn": "arn:aws:lambda:us-west-2:547369373092:function:Create-Thumb",
+      "LambdaFunctionArn": "arn:aws:lambda:us-west-2:547369373092:function:Create-Jenkins-Thumbnail",
       "Events": [ "s3:ObjectCreated:Put" ],
       "Filter": {
         "Key": {
