@@ -4,7 +4,7 @@ pipeline {
     stages {
     	stage('Build DSL Script') {
     		steps { 
-			chmod 755 script.sh
+			sh 'chmod 755 script.sh'
     			sh './script.sh'
     		}
     	}
